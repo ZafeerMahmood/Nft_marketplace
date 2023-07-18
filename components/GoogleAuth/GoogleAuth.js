@@ -20,11 +20,9 @@ const GAuth = ({ }) => {
     }
 
     async function GAuthProvider() {
-        console.log("GAuth")
-        const data= await auth.signInWithPopup(googleAuthProvider).then((result) => {
+        await auth.signInWithPopup(googleAuthProvider).then((result) => {
             setAuth({ authUser: result.user.uid, account: result.user.email });
             setIsAuth(true)
-            console.log(Auth)
         }).catch((error) => {
                 setError(error.message)
         });
