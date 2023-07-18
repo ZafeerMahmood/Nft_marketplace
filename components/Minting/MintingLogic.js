@@ -7,8 +7,8 @@ import Load_mint from "../Loading_Minting/Load_mint";
 import { useRouter } from "next/router";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-const projectId = '2LBwhhN75SAeKHK0tKDY2eEaFtk'
-const projectSecretKey = 'dca85dffb42c250d07ed506bfea2b305';
+const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectSecretKey = process.env.NEXT_PUBLIC_PROJECT_SECRET_KEY;
 import Discover_Loading from "../Dynamic_Pages_Layout/Discover_Loading";
 import Load_mint_success from "../Loading_Minting/Load_mint_success";
 // import { Media } from 'reactstrap';
@@ -19,7 +19,6 @@ let ipfs;
 let carrier
 
 function MintingLogic() {
-  console.log(authorization)
   const router = useRouter()
 
   const [Name, setName] = useState("");
