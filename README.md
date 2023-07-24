@@ -7,7 +7,7 @@ using remix
 the deployed minting contract [link](https://goerli.etherscan.io/address/0xa7ac6d36a8de108db8fb535af6c3a60c7bd2e77a)
 the deployed trading contract [link](https://goerli.etherscan.io/address/0xd551285342f0d723289bd3a3d8ac72797d867ece)
 
-also link to the contract code [link]()
+also link to the contract code Token & Trading  [link](https://github.com/ZafeerMahmood/Remix_Backup_of_Minting_and_TradingContracts/tree/main/.workspaces/remixDefault_Fyp/contracts)
 
 # Project working Tree
 
