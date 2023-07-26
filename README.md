@@ -13,23 +13,23 @@ also link to the contract code Token & Trading  [link](https://github.com/Zafeer
 
 ```bash
     -src
-        -Components
-            -holdes all the components
-        -context
-            -used to run app context
-        -lib
-            -firebase startup
-        -pages
-            -all pages that run on app
-        -public
-            -assets used
-        -styles
-            -any golobal styles.css
-        -contract
-            -minitinginfo
-                -holds the abi and address of the deployed contract
-            -tradingingo
-                -holdes the abi abd address of the deployed contract
+        Components:
+            holdes all the components
+        context:
+            used to run app context
+        lib:
+            firebase startup
+        pages:
+            all pages that run on app
+        public:
+            assets used
+        styles:
+            any golobal styles.css
+        contract:
+            minitinginfo:
+                holds the abi and address of the deployed contract
+            tradingingo:
+                holdes the abi abd address of the deployed contract
         -README.md
         -tailwind.config.js
         -package.json
