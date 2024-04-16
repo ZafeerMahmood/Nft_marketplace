@@ -1,52 +1,43 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import Dynamic_Layout from "../components/Dynamic_Pages_Layout/Dynamic_Layout";
 const buy_ui = () => {
-
-    var array=[1,2,3,4,5]
+  var array = [1, 2, 3, 4, 5];
   return (
-    <div className="flex flex-col h-[70rem] w-screen absolute bg-black" >
-            <Dynamic_Layout/>
-            <div className="flex flex-col h-full w-full bg-black absolute  animate-pulse   " >
-           
-           <div className="flex flex-col h-full w-full items-center justify-center  ">
-           <div className="flex flex-col h-full w-3/4  relative mt-6 ">
-         
+    <div className="flex flex-col h-[70rem] w-screen absolute bg-black">
+      <Dynamic_Layout />
+      <div className="flex flex-col h-full w-full bg-black absolute  animate-pulse   ">
+        <div className="flex flex-col h-full w-full items-center justify-center  ">
+          <div className="flex flex-col h-full w-3/4  relative mt-6 ">
             <div className="flex flex-col h-1/2 w-full  mt-10 ">
-                       
-                       <div className="flex flex-row h-full w-full  justify-evenly mt-5">
-                             
-                             <div className="flex flex-row h-full rounded-md  w-3/5 mt-10  bg-slate-100">
-                             {/* {<img src= height={100} width={500}/>} */}
-                             </div>
-                             
-
-                             <div className="flex flex-row h-full w-full justify-center mt-8 ">
-
-                                <div className="flex flex-col h-full w-4/5 " >
-                                <div className="flex flex-col h-20 w-full  justify-center"> 
-                                       <span className=" mt-1 text-3xl  font-mono text-white"></span>
-                                       </div>
-                                       <div className="flex flex-col h-20 w-full  justify-center">  
-                                       <div class="h-3 w-60 bg-slate-100 rounded"></div>
-                                      </div>
-
-                                       <div className="flex flex-col h-32 w-full  justify-center">    
-                                       <div class="h-3 w-60 bg-slate-100 rounded"></div>
+              <div className="flex flex-row h-full w-full  justify-evenly mt-5">
+                <div className="flex flex-row h-full rounded-md  w-3/5 mt-10  bg-slate-100">
+                  {/* {<img src= height={100} width={500}/>} */}
                 </div>
-                <div className="flex flex-col h-20 w-full  justify-center">    
-                <div class="h-3 w-60 bg-slate-100 rounded"></div>
+
+                <div className="flex flex-row h-full w-full justify-center mt-8 ">
+                  <div className="flex flex-col h-full w-4/5 ">
+                    <div className="flex flex-col h-20 w-full  justify-center">
+                      <span className=" mt-1 text-3xl  font-mono text-white"></span>
+                    </div>
+                    <div className="flex flex-col h-20 w-full  justify-center">
+                      <div class="h-3 w-60 bg-slate-100 rounded"></div>
+                    </div>
+
+                    <div className="flex flex-col h-32 w-full  justify-center">
+                      <div class="h-3 w-60 bg-slate-100 rounded"></div>
+                    </div>
+                    <div className="flex flex-col h-20 w-full  justify-center">
+                      <div class="h-3 w-60 bg-slate-100 rounded"></div>
+                    </div>
+                    <div className="flex flex-col h-32 w-full  justify-end">
+                      <div class="h-3 w-60 bg-slate-100 rounded"></div>
+                    </div>
+                  </div>
                 </div>
-                <div className="flex flex-col h-32 w-full  justify-end">
-                <div class="h-3 w-60 bg-slate-100 rounded"></div>
-</div>
-                                       </div>
-                             </div>
-                       </div>
-                       
-               
+              </div>
             </div>
-                  
-                    {/* <div className="flex flex-col h-1/3 w-full  items-center -mt-8">
+
+            {/* <div className="flex flex-col h-1/3 w-full  items-center -mt-8">
                  <div className="flex flex-col w-11/12 h-full rounded-md ">
                   
                     <div className="flex flex-col h-1/4 w-full ml-6 justify-end  ">
@@ -94,43 +85,27 @@ const buy_ui = () => {
                  </div>
                      </div> */}
 
-                     <div className="flex flex-col h-[60rem] w-full justify-center   ">
-                   <div className=" flex flex-col h-3/5 w-full rounded-lg  outline-1 outline  outline-slate-100 mt-10 justify-evenly">
+            <div className="flex flex-col h-[60rem] w-full justify-center   ">
+              <div className=" flex flex-col h-3/5 w-full rounded-lg  outline-1 outline  outline-slate-100 mt-10 justify-evenly">
+                <div class=" h-3 w-60 bg-slate-100 rounded"></div>
 
-                 
-                 <div class=" h-3 w-60 bg-slate-100 rounded"></div>
-                                      
-                                     
-                 {/* {array.map( user=> (
+                {/* {array.map( user=> (
           <div class=" h-3 w-60 bg-slate-100 rounded">
             {user}
           </div>
         ))} */}
-         <div class=" h-3 w-60 bg-slate-100 rounded">
-         </div>
-         <div class=" h-3 w-60 bg-slate-100 rounded"></div>
-         <div class=" h-3 w-60 bg-slate-100 rounded"></div>
-         <div class=" h-3 w-60 bg-slate-100 rounded"></div>
-         <div class=" h-3 w-60 bg-slate-100 rounded"></div>
-         
-        
-                                      
-                                   
-                                
-                                     
-                                    
-                
-                                       
-                                      </div>
-                                   
-                   </div>
-                     </div>
-                </div>
-           
-           </div>
-   
-</div>
+                <div class=" h-3 w-60 bg-slate-100 rounded"></div>
+                <div class=" h-3 w-60 bg-slate-100 rounded"></div>
+                <div class=" h-3 w-60 bg-slate-100 rounded"></div>
+                <div class=" h-3 w-60 bg-slate-100 rounded"></div>
+                <div class=" h-3 w-60 bg-slate-100 rounded"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default buy_ui
+export default buy_ui;

@@ -1,5 +1,5 @@
-import React from 'react'
-import MintingLogic from './MintingLogic'
+import React from "react";
+import MintingLogic from "./MintingLogic";
 const style = {
   wrapper: `relative`,
   container: `before:content-['']  before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://ia800708.us.archive.org/6/items/plugin.program.jokerwizard_20181216_1319/fanart.jpg')] before:bg-cover before:bg-center before:opacity-80 before:blur`,
@@ -15,20 +15,18 @@ const style = {
   author: `flex flex-col justify-center ml-4`,
   name: ``,
   infoIcon: `flex justify-end items-center flex-1 text-[#8a939b] text-3xl font-bold`,
-}
+};
 
 const Background = () => {
-
   return (
     <div className={style.wrapper}>
-       
       <div className={style.container}>
         <div className={style.contentWrapper}>
-        <MintingLogic/>
+          <MintingLogic />
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Background
+export default Background;

@@ -2,11 +2,9 @@ import Pre_web_load from "./Pre_web_load";
 
 function Home() {
   return (
-
-    <div >
+    <div>
       <Pre_web_load />
     </div>
-
   );
 }
 

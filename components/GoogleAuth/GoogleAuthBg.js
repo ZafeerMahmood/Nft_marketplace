@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
-import GAuth from './GoogleAuth'
-const style= {
-  wrapper: 'relative',
-  container: 'before:content-[]  before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url(https://ia800708.us.archive.org/6/items/plugin.program.jokerwizard_20181216_1319/fanart.jpg)] before:bg-cover before:bg-center before:opacity-80 before:blur',
-  contentWrapper: 'flex h-screen relative justify-center flex-wrap',
+import React, { useState } from "react";
+import GAuth from "./GoogleAuth";
+const style = {
+  wrapper: "relative",
+  container:
+    "before:content-[]  before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url(https://ia800708.us.archive.org/6/items/plugin.program.jokerwizard_20181216_1319/fanart.jpg)] before:bg-cover before:bg-center before:opacity-80 before:blur",
+  contentWrapper: "flex h-screen relative justify-center flex-wrap",
   copyContainer: `w-1/2`,
   title: `relative text-white text-[46px] font-semibold`,
   description: `text-[#8a939b] container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]`,
@@ -15,10 +16,9 @@ const style= {
   author: `flex flex-col justify-center ml-4`,
   name: ``,
   infoIcon: `flex justify-end items-center flex-1 text-[#8a939b] text-3xl font-bold`,
-}
+};
 
 const GoogleAuthBg = () => {
-
   return (
     <div className={style.wrapper}>
       <div className={style.container}>
@@ -27,7 +27,7 @@ const GoogleAuthBg = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default GoogleAuthBg
+export default GoogleAuthBg;
