@@ -68,5 +68,6 @@ npm install
 npm run dev
 ```
 
-Screenshots
-[ss](https://raw.githubusercontent.com/ZafeerMahmood/Nft_marketplace/main/ss/ss1.png)
+## Screenshots
+![Screenshot_1](https://raw.githubusercontent.com/ZafeerMahmood/Nft_marketplace/main/ss/ss1.png)
+
