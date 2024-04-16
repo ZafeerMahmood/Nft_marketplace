@@ -69,4 +69,4 @@ npm run dev
 ```
 
 Screenshots
-[ss]()
+[ss](https://raw.githubusercontent.com/ZafeerMahmood/Nft_marketplace/main/ss/ss1.png)
